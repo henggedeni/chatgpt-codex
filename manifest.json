@@ -1,0 +1,39 @@
+{
+  "name": "chatgpt-codex",
+  "appid": "__UNI__CHATGPT_CODEX__",
+  "description": "示例：App 端统一升级配置",
+  "versionName": "1.0.0",
+  "versionCode": 100,
+  "app-plus": {
+    "compatible": {
+      "ignoreVersion": false
+    },
+    "distribute": {
+      "android": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+          "<uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\"/>"
+        ]
+      },
+      "ios": {
+        "urlschemewhitelist": [
+          "itms-apps",
+          "https"
+        ]
+      },
+      "harmony": {
+        "permissions": [
+          "ohos.permission.INTERNET",
+          "ohos.permission.FILE_ACCESS_PERSIST",
+          "ohos.permission.INSTALL_BUNDLE"
+        ]
+      }
+    },
+    "modules": {
+      "Downloader": {},
+      "Runtime": {}
+    }
+  }
+}
