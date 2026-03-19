@@ -1,0 +1,47 @@
+{
+  "name": "uni-app-starter",
+  "appid": "__UNI__PLACEHOLDER__",
+  "description": "uni-app Vue3 + Vite + TypeScript 跨端项目骨架",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0
+    }
+  },
+  "h5": {
+    "title": "uni-app starter",
+    "router": {
+      "base": "/"
+    }
+  },
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "minified": true
+    },
+    "usingComponents": true
+  },
+  "mp-toutiao": {
+    "appid": "",
+    "setting": {
+      "es6": true
+    },
+    "usingComponents": true
+  },
+  "mp-alipay": {
+    "appid": "",
+    "component2": true,
+    "enableAppxNg": true,
+    "usingComponents": true
+  }
+}
